@@ -1,11 +1,11 @@
-# [JavaScript 教程]()
+# [JavaScript 教程]
 
-作者：[王磊](http://www.rigui.com)
+作者：[Richard.Wang](http://www.rigui.com)
 
 
 ## JavaScript 目录
 1. [前言](#README)
-1. [第一天的课](#docs/01.javascript)
+1. [第一天的课](#docs/01.javascript/01.javascript)
 
 
 
