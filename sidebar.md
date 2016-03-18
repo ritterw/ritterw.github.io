@@ -1,4 +1,4 @@
-# [ECMAScript 6 入门]()
+# [JavaScript 教程]()
 
 作者：[阮一峰](http://www.ruanyifeng.com)
 

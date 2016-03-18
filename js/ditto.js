@@ -89,7 +89,7 @@ function searchbar_listener(event) {
     // event.preventDefault();
     var q = $('input[name=search]').val();
     if (q !== '') {
-      var url = 'https://github.com/ruanyf/es6tutorial/search?utf8=✓&q=' + encodeURIComponent(q);
+      var url = 'https://github.com/ritterw/ritterw.github.io/search?utf8=✓&q=' + encodeURIComponent(q);
       window.open(url, '_blank');
       win.focus();
     }
@@ -260,7 +260,7 @@ function show_loading() {
   return loading;
 }
 
-function router() {	
+function router() {
   var path = location.hash.replace(/#([^#]*)(#.*)?/, './$1');
 
   var hashArr = location.hash.split('#');
