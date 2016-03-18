@@ -293,12 +293,6 @@ function router() {
   var loading = show_loading();
   $.get(path, function(data) {
     $(ditto.error_id).hide();
-    $(ditto.content_id).html(marked(data) + disqusCode);
-    if ($(ditto.content_id + " h1").text() === ditto.document_title) {
-      document.title = ditto.document_title;
-    } else {
-      document.title = $(ditto.content_id + " h1").text() + " - " + ditto.document_title;
-    }
     normalize_paths();
     create_page_anchors();
 
